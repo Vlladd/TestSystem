@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.testsystem.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="32dp"
+        android:height="@android:dimen/thumbnail_width"
+        android:text="Выбор теста"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/buttonTest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбор"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonTest1"
+        android:layout_width="383dp"
+        android:layout_height="44dp"
+        android:text="Вариант теста 1"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonTest2"
+        android:layout_width="381dp"
+        android:layout_height="37dp"
+        android:text="Вариант теста 2"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <RadioButton
+        android:id="@+id/radioButtonTest3"
+        android:layout_width="381dp"
+        android:layout_height="33dp"
+        android:text="Вариант теста 3"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+</android.support.constraint.ConstraintLayout>
